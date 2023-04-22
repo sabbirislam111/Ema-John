@@ -1,0 +1,83 @@
+.product_card img{
+    width: 340px;
+    border-radius: 10px;
+}
+
+.product_card{
+    width: 340px;
+    height: 560px;
+    border: 2px solid rgba(128, 128, 128, 0.266);
+    padding: 2px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.product_name{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+
+color: #0E161A;
+}
+
+.product_price{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.0015em;
+}
+
+.seller {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.004em;
+}
+
+.rating{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.004em;
+}
+
+.btn_add_to_cart{
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 0.0125em;
+
+    width: 100%;
+    background: #FFE0B3;
+    border: 1px solid #95A0A7;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn_add_to_cart:hover{
+    background: #FF9900;
+    cursor: pointer;
+}
+.btn_text{
+    margin-right: 5px;
+}
