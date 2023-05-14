@@ -27,11 +27,11 @@ function App() {
     children:[
       {
         path: '/',
-        element: <Shop></Shop>
+        element: <Shop></Shop>   
       },
       {
         path: '/shop',
-        element: <Shop></Shop>
+        element: <Shop></Shop>   
       },
       {
         path: '/login',

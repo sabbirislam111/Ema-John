@@ -1,7 +1,7 @@
 import React from 'react';
 import './Cart.css'
-const Cart = (props) => {
-    const {carts, children}  = props;
+const Cart = ({carts, children}) => {
+    console.log("carts",carts)
     var total = 0;
     var shiping = 0;
     var quantity = 0;
@@ -27,3 +27,4 @@ const Cart = (props) => {
 };
 
 export default Cart;
+

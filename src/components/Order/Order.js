@@ -7,10 +7,11 @@ import { removeFromDb } from '../../utilities/fakedb';
 
 const Order = () => {
     const {initialCart} = useLoaderData([]) //return {product, previousCart};
+    console.log("initial",initialCart)
     const [cart, setCart] = useState(initialCart);
     
     const handelReMoveData = (id) => {
-        const remainingData = cart.filter(products => products.id !== id);
+        const remainingData = cart.filter(products => products._id !== id);
         setCart(remainingData);
         removeFromDb(id);
     }
@@ -22,7 +23,7 @@ const Order = () => {
            <div className="prodect_order_container">
                 {
                     cart.map(order_product => <OrderReview 
-                        key={order_product.id}
+                        key={order_product._id}
                         product = {order_product}
                         hendelReMoveData={handelReMoveData}
                         ></OrderReview>)

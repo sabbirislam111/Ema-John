@@ -18,3 +18,10 @@
     background-color: rgba(255, 166, 0, 0.553);
     height: 90vh;
 }
+.pagination button{
+    margin-right: 3px;
+    padding: 15px;
+}
+.pagination .selected {
+    background-color: goldenrod;
+}
